@@ -3775,9 +3775,9 @@ body.is-preload #header.alt .logo {
 }
 
 /* Languages Section */
-/* #languages li {
+#languages li {
   list-style-type: none;
-} */
+}
 
 /* Footer */
 
