@@ -3779,6 +3779,11 @@ body.is-preload #header.alt .logo {
   list-style-type: none;
 }
 
+#tech__list {
+  display: grid;
+  grid-template-columns: 300px 300px;
+}
+
 /* Footer */
 
 #footer {
