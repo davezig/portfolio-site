@@ -3795,6 +3795,14 @@ body.is-preload #header.alt .logo {
   font-size: 75%;
 }
 
+#screenshot__keepy {
+  max-width: 500px;
+}
+
+#screenshot__reedly {
+  max-width: 500px;
+}
+
 /* Footer */
 
 #footer {
