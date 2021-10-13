@@ -3781,9 +3781,12 @@ body.is-preload #header.alt .logo {
 
 #tech__list {
   display: grid;
-  grid-template-columns: 300px 300px;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 300px 300px; */
   justify-content: center;
+  margin: 0 auto;
   list-style: none;
+  max-width: 500px;
 }
 
 /* Projects */
