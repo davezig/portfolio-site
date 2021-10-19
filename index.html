@@ -8,6 +8,7 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -96,6 +97,7 @@
                 >a Google Keep Clone
                 <img
                   id="screenshot__keepy"
+                  class="projectImages"
                   src="/images/keepy-screenshot.png"
                   alt="Keepy Screenshot"
               /></span>
@@ -106,6 +108,7 @@
                 >a Feedly clone
                 <img
                   id="screenshot__reedly"
+                  class="projectImages"
                   src="/images/reedly-screenshot.png"
                   alt="Reedly Screenshot"
                 />
@@ -113,28 +116,19 @@
             </p>
           </header>
         </section>
+        <section id="projects__modal">
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
 
-        <!-- Contact Me -->
-        <!-- Should these be an UL-LI? Why? -->
-        <!-- Should I make these a span so I can style them to be left and right? If not a span what should they be? -->
-        <!-- Why doesn't the dang envelope icon work? -->
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01" />
 
-        <!-- <section id="contact" class="main special">
-          <header class="major">
-            <h2>Contact Me</h2>
-          </header>
-          <a href="https://www.linkedin.com/">LinkedIn</a><br />
-          <a href="mailto:dave@daveziegler.dev"
-            ><i class="far fa-envelope-open"></i
-          ></a>
-          dave@daveziegler.dev
-          <a href="#" class="icon brands fa-linkedin alt"
-            ><span class="label">LinkedIn</span></a
-          >
-          <a href="#" class="icon brands far fa-envelope-open"
-            ><span class="label">Twitter</span></a
-          >
-        </section> -->
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+          </div>
+        </section>
       </div>
 
       <!-- Footer -->
@@ -220,5 +214,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/modal.js"></script>
   </body>
 </html>
