@@ -3798,10 +3798,16 @@ body.is-preload #header.alt .logo {
   max-width: 500px;
   border-radius: 8px;
 }
+#screenshot__keepy:hover {
+  cursor: pointer;
+}
 
 #screenshot__reedly {
   max-width: 500px;
   border-radius: 8px;
+}
+#screenshot__reedly:hover {
+  cursor: pointer;
 }
 
 /* Footer */
