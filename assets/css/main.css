@@ -3796,10 +3796,12 @@ body.is-preload #header.alt .logo {
 
 #screenshot__keepy {
   max-width: 500px;
+  border-radius: 8px;
 }
 
 #screenshot__reedly {
   max-width: 500px;
+  border-radius: 8px;
 }
 
 /* Footer */
