@@ -1,12 +1,11 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
-
+@import url(modal.css);
 /*
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
 html,
 body,
 div,
@@ -3793,6 +3792,22 @@ body.is-preload #header.alt .logo {
 .projects__description {
   color: #00000055;
   font-size: 75%;
+}
+
+#screenshot__keepy {
+  max-width: 500px;
+  border-radius: 8px;
+}
+#screenshot__keepy:hover {
+  cursor: pointer;
+}
+
+#screenshot__reedly {
+  max-width: 500px;
+  border-radius: 8px;
+}
+#screenshot__reedly:hover {
+  cursor: pointer;
 }
 
 /* Footer */
