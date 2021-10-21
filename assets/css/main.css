@@ -3781,7 +3781,6 @@ body.is-preload #header.alt .logo {
 #tech__list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-template-columns: 300px 300px; */
   justify-content: center;
   margin: 0 auto;
   list-style: none;
@@ -3794,18 +3793,13 @@ body.is-preload #header.alt .logo {
   font-size: 75%;
 }
 
-#screenshot__keepy {
-  max-width: 500px;
-  border-radius: 8px;
-}
-#screenshot__keepy:hover {
-  cursor: pointer;
-}
-
+#screenshot__keepy,
 #screenshot__reedly {
   max-width: 500px;
+  height: auto;
   border-radius: 8px;
 }
+#screenshot__keepy:hover,
 #screenshot__reedly:hover {
   cursor: pointer;
 }
