@@ -3794,13 +3794,15 @@ body.is-preload #header.alt .logo {
 }
 
 #screenshot__keepy,
-#screenshot__reedly {
+#screenshot__reedly,
+#screenshot__favoreats {
   max-width: 500px;
   height: auto;
   border-radius: 8px;
 }
 #screenshot__keepy:hover,
-#screenshot__reedly:hover {
+#screenshot__reedly:hover,
+#screenshot__favoreats:hover {
   cursor: pointer;
 }
 
